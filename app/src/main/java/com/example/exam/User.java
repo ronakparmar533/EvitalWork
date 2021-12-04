@@ -20,6 +20,10 @@ public class User {
         return money;
     }
 
+    public void setMoney(String money) {
+        this.money = money;
+    }
+
     public User(String names , String numbers , String city , String money){
 
         this.names = names;

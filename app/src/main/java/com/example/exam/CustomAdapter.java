@@ -2,6 +2,7 @@ package com.example.exam;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -56,6 +57,7 @@ public class CustomAdapter extends ArrayAdapter<User> {
         }else{
             curr_status.setBackgroundResource(R.drawable.ic_baseline_trending_down_24);
         }
+
 
         return  Myview;
 

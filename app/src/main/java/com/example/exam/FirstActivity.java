@@ -47,7 +47,6 @@ public class FirstActivity extends AppCompatActivity {
                 }else{
                      intent = new Intent(FirstActivity.this , LoginActivity.class);
                 }
-
                 startActivity(intent);
                 finish();
             }
