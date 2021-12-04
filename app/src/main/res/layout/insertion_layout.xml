@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter name"
+        android:padding="15dp"
+        android:maxLength="10"
+        android:layout_margin="12dp"
+        android:typeface="monospace"
+        android:background="@drawable/background_edittext"/>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Enter mobile no.(xxxxxxxxxx)"
+        android:padding="15dp"
+        android:maxLength="10"
+        android:layout_margin="12dp"
+        android:typeface="monospace"
+        android:background="@drawable/background_edittext"/>
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter city"
+        android:padding="15dp"
+        android:maxLength="10"
+        android:layout_margin="12dp"
+        android:typeface="monospace"
+        android:background="@drawable/background_edittext"/>
+
+    <EditText
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter amount"
+        android:padding="15dp"
+        android:maxLength="8"
+        android:layout_margin="12dp"
+        android:typeface="monospace"
+        android:background="@drawable/background_edittext"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
