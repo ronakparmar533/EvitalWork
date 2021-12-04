@@ -1,3 +1,3 @@
 # EvitalWork
 
-Sample word
+Sample work
