@@ -1,3 +1,3 @@
 # EvitalWork
 
-Sample work
+Demo application
