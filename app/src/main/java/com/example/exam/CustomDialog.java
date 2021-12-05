@@ -50,7 +50,6 @@ public class CustomDialog extends AppCompatDialogFragment {
     }
 
 
-
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
